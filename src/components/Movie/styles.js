@@ -37,7 +37,7 @@ export default makeStyles((theme) => ({
     marginTop: '10px',
     marginBottom: 0,
     textAlign: 'center',
-    fontSize: '1rem',
-    fontWeight: '700',
+    fontSize: '1rem !important',
+    fontWeight: '700 !important',
   },
 }));
