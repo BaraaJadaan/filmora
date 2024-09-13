@@ -3,6 +3,7 @@ import { makeStyles } from '@mui/styles';
 export default makeStyles((theme) => ({
   movie: {
     padding: '10px',
+
   },
   links: {
     alignItems: 'center',
@@ -15,13 +16,16 @@ export default makeStyles((theme) => ({
     '&:hover': {
       cursor: 'pointer',
     },
+    
   },
   image: {
+    transition: 'all .5s ease-out',
     borderRadius: '20px',
     height: '300px',
     marginBottom: '10px',
     '&:hover': {
-      transform: 'scale(1.05)',
+      transform: 'scale(.95)',
+      
     },
   },
   title: {
@@ -33,7 +37,7 @@ export default makeStyles((theme) => ({
     marginTop: '10px',
     marginBottom: 0,
     textAlign: 'center',
-    fontSize: '1rem !important',
-    fontWeight: '700 !important',
+    fontSize: '1rem',
+    fontWeight: '700',
   },
 }));

@@ -48,16 +48,16 @@ const Sidebar = ({ setMobileOpen }) => {
   ];
 
   const redLogo =
-    "https://fontmeme.com/permalink/210930/8531c658a743debe1e1aa1a2fc82006e.png";
+    "https://fontmeme.com/permalink/240913/3c957ea508cf3bf925ec9c79b903b3ef.png";
   const blueLogo =
-    "https://fontmeme.com/permalink/210930/6854ae5c7f76597cf8680e48a2c8a50a.png";
+    "https://fontmeme.com/permalink/240913/c253e24ff21d2cb885e6b661e69cc644.png";
 
   return (
     <div>
       <Link to={"/"} className={classes.imageLink}>
         <img
-          src={theme.palette.mode === "light" ? redLogo : blueLogo}
-          alt="Filmpire Logo"
+          src={theme.palette.mode === "light" ? blueLogo : redLogo}
+          alt="Filmora Logo"
           className={classes.image}
         />
       </Link>
